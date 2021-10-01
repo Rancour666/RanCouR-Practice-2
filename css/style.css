@@ -1,0 +1,448 @@
+
+/* &display=swap&subset=cyrillic-ext */
+
+/*Поключение Шрифтов*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('../fonts/HelveticaNeue.eot');
+	src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue.woff2') format('woff2'), url('../fonts/HelveticaNeue.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'HelveticaNeue-CondensedBlack';
+	src: url('../fonts/HelveticaNeueBlackCondensed.eot');
+	src: url('../fonts/HelveticaNeueBlackCondensed.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeueBlackCondensed.woff2') format('woff2'), url('../fonts/HelveticaNeueBlackCondensed.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+nav, footer, header {
+	display: block;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+}
+
+
+
+
+
+/*=================ОСНОВНЫЕ ОБЩИЕ СТИЛИ=============*/
+
+.wrapper{
+	min-height: 100%;
+	overflow: auto;
+	background-color: #f5fdb0;
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0px auto;
+
+}
+
+.cutspace{
+	background-color: #f7e6ad;
+	border-radius: 20px;
+	margin: 0px 20px;
+	box-shadow: 3px 3px 30px 3px;
+	padding: 30px;
+}
+
+
+
+/*=================================================================HEADER===================================================================*/
+
+.header{
+	margin: 20px 0px;
+}
+
+.main-title{
+	margin: 0px 20px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 700;
+	font-family: 'Poppins';
+	padding: 30px 0px;
+	background-color: #28FFBF;
+	box-shadow: 3px 3px 30px 3px;
+	text-shadow: 2px 2px 2px #28ffbf;
+}
+
+
+
+
+/*=================================================================MAIN===================================================================*/
+
+
+.task-title {
+	margin: 30px auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Poppins';
+	line-height: 30px;
+	padding: 30px;
+	text-decoration: underline;
+	text-transform: capitalize;
+	max-width: 1000px;
+	border-radius: 10px;
+	background-color: #BCFFB9;
+	box-shadow: 10px 10px 5px 0px #28ffbf;
+
+}
+
+
+/*=================================================================CUTSPASE ONE===================================================================*/
+
+
+.card-one {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 50px 60px;
+	border-radius: 10px;
+	box-shadow: 0px 40px 52px -22px #00000014;
+	max-width: 495px;
+}
+.card-one__content{
+	max-width: 375px;
+}
+.card-one__title {
+	font-family: 'Poppins';
+	font-style: 400;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 62px;
+	letter-spacing: 0.8px;
+	color: #323232;
+	margin: 0px 0px 20px 0px;
+}
+.card-one__text {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin: 0px 0px 20px 0px;
+}
+.card-one__text p{
+	padding: 0px 0px 20px 0px;
+}
+
+.card-one__link {
+	border-radius: 29px;
+	background: #F78434;
+	display: inline-block;
+	padding: 18px 39px 16px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+
+
+/*=================================================================CUTSPASE TWO===================================================================*/
+.card-two {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 540px;
+	border-radius: 10px;
+	box-shadow: 0px 40px 52px -22px #00000014;
+	padding: 40px 88px 39px 88px;
+}
+
+.card-two__icon {
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+}
+.card-two__title {
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 63px;
+	text-align: center;
+	letter-spacing: 0.8px;
+	color: #323232;
+}
+.card-two__text {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin: 0px 0px 25px 0px;
+}
+.card-two__button {
+	text-align: center;
+}
+.button-link {
+	border-radius: 29px;
+	background: #FFFFFF;
+	display: inline-block;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #F78434;
+	padding: 18px 39px 16px;
+}
+
+/*=================================================================CUTSPASE THREE===================================================================*/
+.card-three {
+	max-width: 350px;
+	box-shadow: 0px 40px 52px -22px #00000014;
+	background-color:#fff;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.card-three__info {
+	padding: 31px 29px;
+}
+.card-three__text {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin: 0px 0px 23px 0px;
+}
+.card-three__name {
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.6px;
+	color: #323232;
+}
+.card-three__city {
+	font-family: Poppins;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	color: #58BEBF;
+}
+
+
+
+/*=================================================================HEALTHY FOOD FOUR===================================================================*/
+
+
+.work__cards {
+	padding: 30px 0px;
+	margin: 0px -15px 60px;
+}
+.work-card {
+	max-width: 255px;
+	margin: 0px auto;
+	
+}
+.work-card__item {
+	min-height: 206px;
+	padding: 24px;
+	border-radius: 6px;
+	background: #252525;
+	box-shadow: 0px 2px 5px #0000001a;
+	height: 100%;
+	color: #ffffff;
+}
+.work-card__title {
+	font-family: 'HelveticaNeue';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	position: relative;
+	padding: 0px 0px 10px 0px;
+}
+.work-card__title::before {
+	content: '';
+	position: absolute;
+	width: 56px;
+	height: 2px;
+	background-color: #34c759;
+	left: 0;
+	bottom: -10px;
+}
+.work-card__text {
+	padding: 34px 0px 0px 0px;
+	font-family: 'HelveticaNeue';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: #ffffff80;
+}
+
+
+/*=================================================================HEALTHY FOOD FIVE===================================================================*/
+
+
+.dish-card {
+	background: #252525;
+	box-shadow: 0px 2px 5px #0000001a;
+	border-radius: 6px;
+	overflow: hidden;
+	max-width: 350px;
+	margin: 0px auto;
+}
+
+.dish-card__image {
+	height: 260px;
+	position: relative;
+}
+.dish-card__image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.dish-card__image .dish-arrow {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+	z-index: 2;
+	width: 40px;
+	height: 40px;
+}
+
+
+
+.dish-card-content {
+	padding: 29px 20px 24px 30px;
+}
+
+.dish-card-content__title {
+	font-family: 'HelveticaNeue';
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 30px;
+	color: #D9D9D9;
+}
+
+.dish-card-content__subtitle {
+	font-family: 'HelveticaNeue';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.15px;
+	color: #A4A8B2;
+	margin: 0px 0px 20px 0px;
+}
+
+.dish-card-content__text {
+	font-family: 'HelveticaNeue';
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: #85878C;
+	margin: 0px 0px 20px 0px;
+	max-width: 290px;
+}
+
+.dish-card-content__stars {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 38px 0px 3px;
+
+}
+.dish-card-content__stars img{
+	padding: 10px 0px 0px 0px;
+}
+
+.dish-card-content__stars .star-number {
+	display: inline-block;
+	padding: 7px 0px 0px 9px;
+	font-family: 'HelveticaNeue-CondensedBlack';
+	font-weight: 900;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	color: #B3B3B3;
+}
+
+
+.dish-card-content__button {
+	
+	display: inline-block;
+	max-width: 100px;
+	font-family: 'HelveticaNeue-CondensedBlack';
+	font-weight: 900;
+	font-size: 10px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	background: #262626;
+	border: 2px solid #303030;
+	border-radius: 30px;
+	padding: 0px 30px;
+	color: rgba(255, 255, 255, 0.5);
+	border: 2px solid #303030;
+	box-sizing: border-box;
+}
+
+
+
+/*=================================================================FOOTER===================================================================*/
+.footer{
+	margin: 20px 0px;
+}
