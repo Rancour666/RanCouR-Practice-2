@@ -3,7 +3,7 @@
 
 /*Поключение Шрифтов*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext);
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap&subset=cyrillic-ext);
 
 @font-face {
 	font-family: 'HelveticaNeue';
@@ -92,7 +92,12 @@ html, body {
 	padding: 30px;
 }
 
-
+span{
+	font-family: 'Poppins';
+	color: #28ffbf;
+	font-weight: 900;
+	text-shadow: 2px 2px 2px #000;
+}
 
 /*=================================================================HEADER===================================================================*/
 
@@ -129,13 +134,13 @@ html, body {
 	font-family: 'Poppins';
 	line-height: 30px;
 	padding: 30px;
-	text-decoration: underline;
 	text-transform: capitalize;
 	max-width: 1000px;
 	border-radius: 10px;
 	background-color: #BCFFB9;
 	box-shadow: 10px 10px 5px 0px #28ffbf;
-
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
 }
 
 
